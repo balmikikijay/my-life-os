@@ -3,7 +3,7 @@
    - Navigations: network-first, fall back to cached index.html (SPA shell).
    - Static assets (JS/CSS/icons/manifest): cache-first with runtime caching.
    Bump CACHE_VERSION when the caching strategy changes; old caches are cleaned on activate. */
-const CACHE_VERSION = "mylifeos-v1";
+const CACHE_VERSION = "mylifeos-v2";
 const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icons/icon-192.png", "./icons/icon-512.png"];
 
 self.addEventListener("install", (event) => {
